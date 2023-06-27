@@ -1,0 +1,35 @@
+.Contact {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(151, 146, 234) 0%,
+    rgb(206, 206, 252) 46%,
+    rgb(195, 234, 241) 100%
+  );
+  .Contact-sidebar {
+  }
+  .Contact-content {
+    margin: 40px;
+
+    padding: 30px;
+
+    color: rgb(50, 47, 47);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    .Contact-content-heading {
+    }
+    .Contact-content-paragraph {
+      margin-top: 40px;
+      font-size: large;
+    }
+    .Contact-content-image {
+      border-radius: 70%;
+      margin-top: 40px;
+      height: 270px;
+      margin-left: 280px;
+    }
+  }
+}

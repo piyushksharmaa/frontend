@@ -1,0 +1,43 @@
+.sidebar1 {
+  height: 100%;
+  width: 200px;
+  background-color: rgb(138, 132, 244);
+
+  .sidebar1-list {
+    height: auto;
+    padding: 0;
+    width: 100%;
+
+    .sidebar1-list-row {
+      width: 100%;
+      height: 60px;
+      background-color: rgb(140, 134, 250);
+      border: 1px solid;
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(162, 179, 242);
+      }
+      #sidebar1-list-row-icon {
+        flex: 30%;
+        display: grid;
+        place-items: center;
+      }
+      #sidebar1-list-row-title {
+        flex: 80%;
+        display: grid;
+      }
+    }
+    #active {
+      background-color: rgb(110, 110, 251);
+    }
+  }
+}
